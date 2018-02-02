@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors Game</title>
+    <meta charset="utf-8">
+    <meta name="Kerstin Wagner" content="Rock Paper Scissors Game">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="top">
+        <h2>Welcome to Rock Paper Scissors! </h2>
+        <p><em>Rock beats scissors, paper beats rock, scissors beat paper.</em></p>
+        <p>You will be playing against your own Computer. Please make your choice by clicking on one of the images below. </p>
+        <p>Whoever has 5 points first, wins! Enjoy!</p>
+        <p><div id="winner"></div></p>
+      </div>
+
+      <div id="left">
+        <h3>Your Choice: </h3>
+      </div>
+
+      <div id="middle">
+    		<p>
+      		<img src="rock-891886_640.png" alt="rock" id="rock">
+      		<img src="paper-plane-147602_640.png" alt="paper" id="paper">
+      		<img src="16531-illustration-of-a-pair-of-scissors-pv.png" alt="scissors" id="scissors">
+    		</p>
+      </div>
+
+      <div id="right">
+        <h3>Computer Choice: </h3>
+      </div>
+
+      <div id="bottom">
+        <table>
+          <tr>
+            <th>You</th>
+            <th> Computer </th>
+          </tr>
+          <tr>
+            <td id="userScore"></td>
+            <td id ="computerScore"></td>
+          </tr>
+        </table>
+        <footer>
+          <em>&copy; Kerstin Wagner</em>
+        </footer>
+      </div>
+      <script src="newRPS.js"></script>
+    </div>
+  </body>
+
+</html>
